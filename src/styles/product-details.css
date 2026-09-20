@@ -1,5 +1,6 @@
 
 
+@media (max-width: 800px) {
   .product-details {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -183,3 +184,4 @@
     grid-template-columns: 1fr;
     gap: 6px;
   }
+}

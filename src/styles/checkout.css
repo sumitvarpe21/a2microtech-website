@@ -1,5 +1,6 @@
 
 
+@media (max-width: 900px) {
   .checkout-layout {
     grid-template-columns: 1fr;
   }
@@ -77,3 +78,4 @@
   .checkout-summary {
     padding: 20px;
   }
+}

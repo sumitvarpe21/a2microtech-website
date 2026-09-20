@@ -37,6 +37,7 @@
   font-size: 15px;
 }
 
+@media (max-width: 900px) {
   .product-image {
     height: 280px;
   }
@@ -370,5 +371,4 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-
-  
+}

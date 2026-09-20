@@ -1,5 +1,6 @@
 
 
+@media (max-width: 900px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -66,3 +67,4 @@
   .services-cta h2 {
     font-size: 30px;
   }
+}
