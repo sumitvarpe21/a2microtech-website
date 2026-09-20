@@ -1,0 +1,268 @@
+
+}
+
+/* ABOUT PAGE */
+
+.about-page {
+  max-width: 1280px;
+  margin: auto;
+  padding: 80px 40px 100px;
+}
+
+.about-hero {
+  max-width: 800px;
+  margin-bottom: 90px;
+}
+
+.about-hero > p:first-child {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.about-hero h1 {
+  font-size: 54px;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+}
+
+.about-intro {
+  max-width: 650px;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 70px;
+}
+
+.section-label {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.about-story-content h2 {
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+
+.about-story-content > p:not(.section-label) {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  max-width: 550px;
+}
+
+.about-story-box {
+  min-height: 350px;
+  background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-story-box span {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.about-story-box strong {
+  font-size: 22px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.about-story-box p {
+  color: #777;
+  font-size: 11px;
+  margin-top: 18px;
+}
+
+.about-highlights {
+  margin-top: 100px;
+}
+
+.about-section-heading {
+  margin-bottom: 35px;
+}
+
+.about-section-heading h2 {
+  font-size: 34px;
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.about-value-card {
+  border: 1px solid #e3e3e3;
+  padding: 30px 25px;
+  min-height: 230px;
+}
+
+.about-value-icon {
+  width: 50px;
+  height: 50px;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.about-value-card h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.about-value-card p {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.about-cta {
+  margin-top: 90px;
+  padding: 70px 30px;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.about-cta > p {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.about-cta h2 {
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.about-cta-button {
+  display: inline-flex;
+  padding: 14px 25px;
+  background: #111;
+  color: white;
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .about-page {
+    padding: 60px 25px 80px;
+  }
+
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about-page {
+    padding: 45px 20px 70px;
+  }
+
+  .about-hero h1 {
+    font-size: 40px;
+  }
+
+  .about-story-content h2 {
+    font-size: 30px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-cta {
+    padding: 50px 20px;
+  }
+
+  .about-cta h2 {
+    font-size: 30px;
+  }
+
+  /* About */
+
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* ---------- ABOUT ---------- */
+
+  .about-page {
+    width: 100%;
+    padding: 45px 20px 70px;
+  }
+
+  .about-hero {
+    margin-bottom: 55px;
+  }
+
+  .about-hero h1 {
+    font-size: 40px;
+    line-height: 1.05;
+  }
+
+  .about-story {
+    padding-top: 45px;
+    gap: 30px;
+  }
+
+  .about-story-content h2 {
+    font-size: 30px;
+  }
+
+  .about-story-box {
+    min-height: 260px;
+  }
+
+  .about-story-box span {
+    font-size: 65px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-highlights {
+    margin-top: 60px;
+  }
+
+  .about-cta {
+    margin-top: 60px;
+    padding: 45px 20px;
+  }
+
+  .about-cta h2 {
+    font-size: 30px;
+  }

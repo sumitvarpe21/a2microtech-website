@@ -28,14 +28,14 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-button">
-              Shop Products
-              <ArrowRight size={18} />
-            </button>
+            <Link to="/products" className="primary-button">
+  Shop Products
+  <ArrowRight size={18} />
+</Link>
 
-            <button className="secondary-button">
-              Explore Categories
-            </button>
+            <Link to="/products" className="secondary-button">
+  Explore Categories
+</Link>
           </div>
         </div>
 

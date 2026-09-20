@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111111;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* =========================
+   TABLET / MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+  .navbar-container {
+    height: 64px;
+    padding: 0 20px;
+  }
+
+  /* Hide desktop navigation */
+  .nav-links {
+    display: none;
+  }
+
+  /* Keep actions visible */
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Show hamburger */
+  .mobile-menu {
+    display: flex !important;
+    width: 34px;
+    height: 34px;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #111;
+  }
+
+  .logo img {
+    width: 82px;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 500px) {
+
+  .navbar-container {
+    height: 62px;
+    padding: 0 15px;
+  }
+
+  .logo img {
+    width: 78px;
+  }
+
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .nav-actions button,
+  .nav-actions a {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*
+   * DO NOT hide icons using nth-child.
+   * Keep search, cart and hamburger visible.
+   */
+
+  .mobile-menu {
+    display: flex !important;
+  }
+}
+
+  .products-description {
+    font-size: 14px;
+  }
+}

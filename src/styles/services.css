@@ -1,0 +1,68 @@
+
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-page {
+    padding: 45px 20px 70px;
+  }
+
+  .services-header h1 {
+    font-size: 38px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-cta {
+    padding: 50px 25px;
+  }
+
+  .services-cta h2 {
+    font-size: 30px;
+  }
+
+  /* Services */
+
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* ---------- SERVICES ---------- */
+
+  .services-page {
+    width: 100%;
+    padding: 45px 20px 70px;
+  }
+
+  .services-header {
+    margin-bottom: 40px;
+  }
+
+  .services-header h1 {
+    font-size: 40px;
+    line-height: 1.05;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .service-card {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+
+  .services-cta {
+    margin-top: 55px;
+    padding: 45px 20px;
+  }
+
+  .services-cta h2 {
+    font-size: 30px;
+  }
