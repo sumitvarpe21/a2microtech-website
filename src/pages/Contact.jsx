@@ -46,8 +46,9 @@ export default function Contact() {
               </div>
               <div>
                 <span>Founders</span>
-                <strong>Akash Chechare</strong>
+                
                 <strong>Avinash Ghalme</strong>
+                <strong>Akash Chechare</strong>
               </div>
             </div>
             <div className="contact-detail">
@@ -56,8 +57,9 @@ export default function Contact() {
               </div>
               <div>
                 <span>Phone</span>
-                <a href="tel:+917758931307">77589 31307</a>
+                
                 <a href="tel:+919175702325">91757 02325</a>
+                <a href="tel:+917758931307">77589 31307</a>
               </div>
             </div>
             <div className="contact-detail">
@@ -110,7 +112,7 @@ export default function Contact() {
           <form
             onSubmit={(event) => {
               event.preventDefault();
-              alert("Thank you for contacting A2 Microtech. We will get back to you soon.");
+              alert("Thank you for contacting A2MICROTECH INDIA PVT. LTD. We will get back to you soon.");
               setForm({ name: "", email: "", phone: "", subject: "", message: "" });
             }}
           >
@@ -183,7 +185,7 @@ export default function Contact() {
         <h2>Need help choosing a product?</h2>
         <p>Our team can help you find the right components for your project.</p>
         <a href="tel:+917758931307" className="contact-email-button">
-          Call A2 Microtech →
+          Call A2MICROTECH INDIA PVT. LTD →
         </a>
       </section>
     </main>

@@ -28,14 +28,14 @@ export default function About() {
   return (
     <main className="about-page">
       <section className="about-hero">
-        <p>ABOUT A2 MICROTECH</p>
+        <p>ABOUT A2MICROTECH INDIA PVT. LTD</p>
         <h1>
           Technology built
           <br />
           around your needs.
         </h1>
         <p className="about-intro">
-          A2 Microtech provides electronics, technology products and development solutions for
+          A2MICROTECH INDIA PVT. LTD provides electronics, technology products and development solutions for
           students, developers, businesses and technology enthusiasts.
         </p>
       </section>
@@ -59,7 +59,7 @@ export default function About() {
         </div>
         <div className="about-story-box">
           <span>A2</span>
-          <strong>MICROTECH</strong>
+          <strong>MICROTECH INDIA PVT. LTD</strong>
           <p>Technology • Electronics • Solutions</p>
         </div>
       </section>

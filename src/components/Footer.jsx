@@ -26,7 +26,7 @@ export default function Footer() {
           <ul>
             <li>
               <Phone size={15} />
-              <a href="tel:+917758931307">77589 31307</a>
+              <a href="tel:+919175702325">91757 02325</a>
             </li>
             <li>
               <Mail size={15} />
@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2025 A2 Microtech. All rights reserved.</span>
+        <span>© 2025 A2MICROTECH INDIA PVT. LTD. All rights reserved.</span>
       </div>
     </footer>
   );

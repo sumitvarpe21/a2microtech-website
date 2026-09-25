@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <section className="hero">
         <div className="hero-content">
-          <p className="hero-label">A2 MICROTECH</p>
+          <p className="hero-label">A2MICROTECH INDIA PVT. LTD</p>
           <h1>
             Technology
             <br />
