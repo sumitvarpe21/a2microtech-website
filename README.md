@@ -1,52 +1,34 @@
 # A2 Microtech Website
 
-A recreation of the A2 Microtech website — electronic components, development
-boards, sensors and technology solutions — built with React, TanStack Start
-(TanStack Router), TypeScript and Tailwind CSS.
+A React + Vite storefront for A2 Microtech with the same content, categories, product catalog, cart flow, and responsive styling as the original application.
 
-## Run locally in VS Code
+## Run locally
 
-### 1. Prerequisites
-
-Install Node.js (version 20 or newer recommended) from
-[https://nodejs.org](https://nodejs.org), or use
-[nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-### 2. Open the project
-
-1. Extract this ZIP to a folder.
-2. Open that folder in VS Code (**File → Open Folder…**).
-
-### 3. Install dependencies
-
-Open the VS Code terminal (**Terminal → New Terminal**) and run:
+### 1. Install dependencies
 
 ```sh
 npm install
 ```
 
-### 4. Start the dev server
+### 2. Start the development server
 
 ```sh
 npm run dev
 ```
 
-Then open the URL shown in the terminal (usually `http://localhost:5173` or
-`http://localhost:8080`) in your browser.
-
-### 5. Build for production
+### 3. Build for production
 
 ```sh
 npm run build
 ```
 
-The production build is written to the `dist` / `.output` folders.
+The production build is generated in the `dist` folder for static hosting.
 
 ## Project structure
 
-- `src/routes/` — all pages (Home, Products, Product Details, Services, About,
-  Contact, Cart, Checkout, Order Success)
-- `src/data/products.ts` — centralized product catalog
-- `src/context/CartContext.tsx` — cart state, persisted to localStorage
-- `src/components/` — Navbar, ProductCard and shared UI
-- `public/assets/` — product and category images, logo
+- `src/App.jsx` — application router and layout
+- `src/pages/` — Home, Products, Product Details, Cart, Checkout, Order Success, Services, About, Contact
+- `src/components/` — Navbar, ProductCard, Footer
+- `src/data/products.js` — product catalog
+- `src/context/CartContext.jsx` — cart state with localStorage persistence
+- `public/assets/` — product, category, and logo images
